@@ -1,0 +1,4 @@
+set up node_modules
+set up npm install bootstrap
+set up npm install owl.carousel --save
+ok
