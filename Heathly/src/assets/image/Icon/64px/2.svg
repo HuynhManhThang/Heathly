@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/64px/2</title>
+    <g id="Icon/64px/2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Invisible-frame" x="0" y="0" width="64" height="64"></rect>
+        <rect id="Rectangle" fill="#FCAD05" opacity="0.100000001" x="0" y="0" width="64" height="64" rx="16"></rect>
+        <path d="M22,21 L22,43 C22,43.5522847 22.4477153,44 23,44 L41,44 C41.5522847,44 42,43.5522847 42,43 L42,21 C42,20.4477153 41.5522847,20 41,20 L23,20 C22.4477153,20 22,20.4477153 22,21 Z M25,25 L31,25 L31,31 L25,31 L25,25 Z M39,39 L25,39 L25,37 L39,37 L39,39 Z M39,35 L25,35 L25,33 L39,33 L39,35 Z M39,31 L33,31 L33,29 L39,29 L39,31 Z M39,27 L33,27 L33,25 L39,25 L39,27 Z" id="Shape" fill="#FCAD05"></path>
+    </g>
+</svg>

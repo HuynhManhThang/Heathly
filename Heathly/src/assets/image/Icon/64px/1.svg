@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/64px/1</title>
+    <g id="Icon/64px/1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Invisible-frame" x="0" y="0" width="64" height="64"></rect>
+        <rect id="Rectangle" fill="#FD7B1F" opacity="0.100000001" x="0" y="0" width="64" height="64" rx="16"></rect>
+        <path d="M42,38.315 L42,44 L39,42 L36,44 L36,38.315 C36.911,38.749 37.926,39 39,39 C40.074,39 41.089,38.749 42,38.315 L42,38.315 Z M38,20 C38.552,20 39,20.448 39,21 L39,21 L39,25 C35.141,25 32,28.14 32,32 C32,33.845 32.718,35.572 34,36.874 L34,36.874 L34,41 L21,41 C20.448,41 20,40.552 20,40 L20,40 L20,21 C20,20.448 20.448,20 21,20 L21,20 Z M39,27 C41.7614237,27 44,29.2385763 44,32 C44,34.7614237 41.7614237,37 39,37 C36.2385763,37 34,34.7614237 34,32 C34,29.2385763 36.2385763,27 39,27 Z M28,34 L24,34 L24,36 L28,36 L28,34 Z M28,29 L24,29 L24,31 L28,31 L28,29 Z M31,24 L24,24 L24,26 L31,26 L31,24 Z" id="Combined-Shape" fill="#FD7B1F"></path>
+    </g>
+</svg>

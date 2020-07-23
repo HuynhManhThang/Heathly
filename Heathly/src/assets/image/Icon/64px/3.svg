@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/64px/3</title>
+    <g id="Icon/64px/3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Invisible-frame" opacity="0.100000001" x="0" y="0" width="64" height="64"></rect>
+        <rect id="Rectangle" fill="#79C814" opacity="0.100000001" x="0" y="0" width="64" height="64" rx="16"></rect>
+        <path d="M43,35 L41,35 L41,31 C41,30.9 41,30.8 40.9,30.7 C40.9,30.7 40.9,30.6 40.9,30.6 C40.9,30.5 40.8,30.4 40.7,30.3 C40.7,30.3 40.7,30.3 40.7,30.3 C40.7,30.3 40.6,30.2 40.6,30.2 L33,25.4 L33,23 L35,23 L35,21 L33,21 L33,20 L31,20 L31,21 L31,23 L31,25.4 L23.5,30.1 C23.4,30.1 23.4,30.2 23.4,30.2 C23.4,30.2 23.4,30.2 23.4,30.2 C23.3,30.3 23.3,30.4 23.2,30.5 C23.2,30.5 23.2,30.5 23.2,30.6 C23,30.8 23,30.9 23,31 L23,35 L21,35 C20.4,35 20,35.4 20,36 L20,43 C20,43.6 20.4,44 21,44 L24,44 L25,44 L39,44 L40,44 L43,44 C43.6,44 44,43.6 44,43 L44,36 C44,35.4 43.6,35 43,35 Z M25,42 L25,33 L28,33 L28,42 L25,42 Z M30,33 L34,33 L34,42 L30,42 L30,33 Z M36,42 L36,33 L39,33 L39,42 L36,42 Z" id="Shape" fill="#79C814"></path>
+    </g>
+</svg>

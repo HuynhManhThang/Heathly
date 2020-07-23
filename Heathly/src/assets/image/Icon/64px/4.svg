@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/64px/4</title>
+    <g id="Icon/64px/4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Invisible-frame" opacity="0.100000001" x="0" y="0" width="64" height="64"></rect>
+        <rect id="Rectangle" fill="#26C1C9" opacity="0.100000001" x="0" y="0" width="64" height="64" rx="16"></rect>
+        <path d="M43,38 L33,38 L31,38 L21,38 C20.447,38 20,38.448 20,39 C20,39.552 20.447,40 21,40 L27.586,40 L25.293,42.293 L26.707,43.707 L30.414,40 L31,40 L31,43 L33,43 L33,40 L33.586,40 L37.293,43.707 L38.707,42.293 L36.414,40 L43,40 C43.553,40 44,39.552 44,39 C44,38.448 43.553,38 43,38 Z" id="Path" fill="#26C1C9"></path>
+        <path d="M41,20 L23,20 C22.448,20 22,20.448 22,21 L22,36 L42,36 L42,21 C42,20.448 41.552,20 41,20 Z M29,32 L27,32 L27,28 L29,28 L29,32 Z M33,32 L31,32 L31,24 L33,24 L33,32 Z M37,32 L35,32 L35,26 L37,26 L37,32 Z" id="Shape" fill="#26C1C9"></path>
+    </g>
+</svg>

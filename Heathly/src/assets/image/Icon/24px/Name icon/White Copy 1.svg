@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #131313;">
+    <title>Icon/24px/Name icon/White Copy 1</title>
+    <g id="Icon/24px/Name-icon/White-Copy-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#131313" x="0" y="0" width="24" height="24"></rect>
+        <rect id="Invisible-frame" x="0" y="0" width="24" height="24"></rect>
+        <path d="M23.8,7.6 C23.8,7.6 23.6,5.9 22.8,5.2 C21.9,4.2 20.9,4.2 20.4,4.2 C17,4 12,4 12,4 L12,4 C12,4 7,4 3.6,4.2 C3.1,4.3 2.1,4.3 1.2,5.2 C0.5,5.9 0.2,7.6 0.2,7.6 C0.2,7.6 1.77635684e-15,9.5 1.77635684e-15,11.5 L1.77635684e-15,13.3 C1.77635684e-15,15.2 0.2,17.2 0.2,17.2 C0.2,17.2 0.4,18.9 1.2,19.6 C2.1,20.6 3.3,20.5 3.8,20.6 C5.7,20.8 12,20.8 12,20.8 C12,20.8 17,20.8 20.4,20.5 C20.9,20.4 21.9,20.4 22.8,19.5 C23.5,18.8 23.8,17.1 23.8,17.1 C23.8,17.1 24,15.2 24,13.2 L24,11.4 C24,9.5 23.8,7.6 23.8,7.6 Z M9.5,15.5 L9.5,8.8 L16,12.2 L9.5,15.5 Z" id="Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>
