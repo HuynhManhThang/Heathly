@@ -28,6 +28,7 @@
   line-height: 20px;
   margin: 13px;
 }
+
 #btnRegistration {
   font-weight: bold;
   height: 40px;
@@ -38,6 +39,9 @@
   line-height: 20px;
   text-decoration: none;
   cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+  border: none;
+
+
 }
 #btnLogin {
   width: 100px;
@@ -86,7 +90,9 @@
 #menu ul li a:hover {
   color: #dd223f;
 }
-
+.imgLanguge{
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+}
 #slide_main {
   background-image: url("../assets/image/bg/slide.jfif");
   background-repeat: no-repeat;
