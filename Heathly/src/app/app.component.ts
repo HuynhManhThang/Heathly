@@ -8,37 +8,45 @@ declare let $: any;
 export class AppComponent {
   title = 'Heathly';
 
-  ngAfterViewInit(){
-
+  ngAfterViewInit() {
     $('.owl-carousel').owlCarousel({
-      loop:true,
-      margin:10,
-      responsiveClass:true,
-      responsive:{
-          0:{
-              items:1,
-              nav:true
-          },
-          600:{
-              items:2,
-              nav:false
-          },
-          808:{
-            items:3,
-            nav:false
-          },
-          1180:{
-            items:4,
-              nav:false
-          },
+      loop: true,
+      dots: false,
+      autoplay: true,
+      navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
+      autoplayTimeout: 2000,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 2,
+          nav: false
+        },
+        810: {
+          items: 3,
+          nav: false
+        },
+        1180: {
+          items: 4,
+          nav: false,
+          // loop:false
 
-          1515:{
-            items:5,
-            nav:true,
-            loop:true
-        }
+        },
+
+
       }
 
-})
+    })
+    var owl = $('.owl-carousel');
+    owl.owlCarousel();
+    $('.pre').click(function () {
+      owl.trigger('next.owl.carousel');
+    });
+    $('.next').click(function () {
+      owl.trigger('prev.owl.carousel', [300]);
+    });
+
   }
 }

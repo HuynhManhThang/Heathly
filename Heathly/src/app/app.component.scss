@@ -1,5 +1,8 @@
-body {
-  position: relative;
+.divAll {
+  font-family: HelveticaNeue;
+}
+.container {
+  max-width: 1215px;
 }
 #header {
   background-image: url("https://c.pxhere.com/photos/4d/3f/beatenberg_mountain_bernese_oberland_switzerland_rock_alpine_niederhorn_winter-1279647.jpg!d");
@@ -8,61 +11,79 @@ body {
   background-size: 100% 100%;
   height: 80px;
 }
-
-#logo {
+.container_header {
+  height: 48px;
+  margin-top: 20px;
+}
+#img_logo {
   width: 48px;
   height: 48px;
 }
 
 #Text_slogan {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 14px;
   color: #1b153a;
   letter-spacing: 0;
   line-height: 20px;
-  margin: 10px;
+  margin: 13px;
 }
-
-.btnDangNhap {
+#btnRegistration {
+  font-weight: bold;
+  height: 40px;
+  font-size: 14px;
+  color: #1b153a;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 20px;
+  text-decoration: none;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+}
+#btnLogin {
   width: 100px;
   height: 40px;
   border-radius: 4px;
   background-color: #dd223f;
-  font-family: SVN-ProximaNovaBold;
+  font-weight: bold;
   font-size: 14px;
   color: #fdfdfd;
   letter-spacing: 0;
   text-align: center;
   line-height: 18px;
+  border: none;
+  padding-top: 3px;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
 }
 
 #menu {
   height: 40px;
   background: #ffffff;
 }
-
-ul {
+#menu_ul {
+  padding-left: 0px;
+  height: 24px;
+}
+#menu  ul {
   list-style-type: none;
 }
 
-ul li {
+#menu  ul li {
   float: left;
 }
 
-ul li a {
+#menu ul li a {
   text-decoration: none;
   display: block;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 14px;
+  padding-top: 10px;
+  padding-right: 40px;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+  font-size: 12px;
   color: #1b153a;
   letter-spacing: 0;
   text-transform: uppercase;
 }
 
-ul li a:hover {
+#menu ul li a:hover {
   color: #dd223f;
 }
 
@@ -79,18 +100,45 @@ ul li a:hover {
   height: 405px;
   margin-top: 50px;
   bottom: 0;
-}
-#textCard {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-  color: #757288;
-}
-#textCard:hover {
-  color: #382a89;
   border: none;
-  border-bottom: 2px solid #382a89;
 }
+.tablinks {
+  width: 50%;
+  text-transform: uppercase;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+  padding: 10px;
+  transition: 0.3s;
+  font-size: 11px;
+  font-weight: bold;
+  color: #757288;
+  margin-left: 0;
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid rgb(156, 150, 150);
+}
+
+.tab button.active {
+  border-bottom: 2px solid #382a89;
+  color: #382a89;
+}
+
 #Text-input-card {
   width: 100%;
   padding: 12px 20px;
@@ -102,56 +150,79 @@ ul li a:hover {
 }
 
 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
   width: 100%;
+  height: 48px;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   background: #f3f3f5;
   border-radius: 4px;
   border: none;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #1b153a;
   letter-spacing: 0;
   line-height: 22px;
-  cursor: pointer;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+}
+select::-ms-expand {
+  display: none;
+}
+.select {
+  position: relative;
+  display: flex;
+  line-height: 3;
+  overflow: hidden;
+  border-radius: 0.25em;
+}
+.select::after {
+  content: url(../assets/image/Icon/16px/Dropdown/Black.svg);
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 0 1em;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+  pointer-events: none;
+  transition: 0.25s all ease;
 }
 #btnTimkiem {
   width: 100%;
-  height: 40pt;
-  background-color: #382a89; /* Green */
+  height: 48px;
+  background-color: #382a89;
   border: none;
-  color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  margin: 8px 0;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
   border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fdfdfd;
+  letter-spacing: 0;
+  line-height: 20px;
 }
-#btnDangkyHoSo {
-  width: 261pt;
-  height: 48pt;
+#btnRegisterProfile {
+  width: 200pt;
+  height: 48px;
   background-color: #f3f3f5;
   border: none;
-  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
   border-radius: 4px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #dd223f;
-}
-#textTitlep {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
-  font-size: 16px;
-  color: #020023;
+  letter-spacing: 0;
+  line-height: 20px;
+  left: 0;
 }
 #card-about {
   margin-bottom: 10px;
@@ -161,24 +232,83 @@ select {
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+  border: none;
 }
+.height50{
+  height: 50%;
+}
+#textTitlep {
+  font-weight: bold;
+  font-size: 16px;
+  color: #1b153a;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
 #card-text {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: #1b153a;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: 0;
 }
 #TinTuc_SuKien {
-  margin-left: 90px;
-  margin-bottom: 50px;
-  font-weight: bolder;
+  margin-top: 64px;
+  margin-bottom: 31px;
+  font-weight: bold;
+}
+#next_pre {
+  display: block;
+  z-index: 2;
+  background-color: #ffffff;
+  width: 48px;
+  height: 48px;
+  padding-left: 15px;
+  padding-top: 10px;
+  border-radius: 50px;
+  animation: mymove 5s infinite;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+}
+@keyframes mymove {
+  80% {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+  }
+}
+.pre {
+  top: 80px;
+  left: -6px;
+  //   left: 300px;
+  position: absolute;
+}
+.next {
+  right: 0;
+  left: 1174px;
+  bottom: 140px;
+  position: absolute;
+}
+#card_slide {
+  width: 285px;
+  height: 270px;
+  border: none;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+}
+.card-img-top {
+  height: 185px;
 }
 .card-title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 14px;
   color: #1b153a;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 10px;
 }
+
 #footer {
   background: #1b153a;
   width: 100%;
@@ -187,61 +317,33 @@ select {
 #Text {
   text-transform: uppercase;
   opacity: 0.5;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 12px;
   color: #ffffff;
 }
 #text_contact {
   color: rgb(255, 255, 255);
 }
-.myButton {
-  width: 60px;
-  height: 70px;
-  border-radius: 50px;
-  padding-right: 60px;
-  background-color: #ffffff;
-  box-shadow: 1px 1px 1px 1px rgb(209, 165, 165);
-  margin-bottom: 5px;
-  margin-top: 10px;
-  float: right;
+
+#hr {
+  border: 1px solid rgb(231, 206, 206);
+  opacity: 0.1;
 }
-#icon_messger {
-  padding-right: 10px;
-  font-size: 48px;
-  color: #007eff;
-}
-.align_popup {
-  align-self: flex-end;
-  margin-right: 100px;
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 100px;
-  z-index: 1;
-}
-.cardPopup {
-  width: 400px;
-  height: 170px;
-  box-shadow: 1px 1px 1px 1px rgb(209, 165, 165);
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-.img_colse {
-  cursor: pointer;
-  width: 33px;
-  height: 40px;
-}
-.avater {
-  width: 30px;
-  height: 30px;
-  border-radius: 50px;
-}
-.chatNow {
+#logo_footer {
+  width: 48px;
+  height: 48px;
   margin: 0 auto;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  margin-top: 50px;
 }
+#icon_MobileAPP {
+  margin: 9px;
+  margin-left: 0;
+  cursor: url(../assets/image/Icon/Basic/Control.png), auto;
+
+}
+
+
+
 
 @media only screen and (max-width: 945px) {
   #header {
@@ -250,10 +352,38 @@ select {
 }
 
 @media only screen and (max-width: 820px) {
- #menu_ul{
-   display: none
- }
- #btnDangkyHoSo{
-   display: none
- }
+  #menu_ul {
+    display: none;
+  }
+  #btnRegisterProfile {
+    display: none;
+  }
 }
+@media only screen and (max-width: 995px) {
+  #Text {
+    text-transform: uppercase;
+    opacity: 0.5;
+
+    font-weight: bolder;
+    font-size: 10px;
+    color: #ffffff;
+  }
+  #text_contact {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+  }
+}
+// .myButton {
+//   align-self: end;
+//   width: 60px;
+//   height: 70px;
+//   border-radius: 50px;
+//   padding-right: 58px;
+//   background-color: #ffffff;
+//   box-shadow: 1px 1px 1px 1px rgb(209, 165, 165);
+//   position: fixed;
+//   bottom: 20px;
+//   // right: 255px;
+//   right: 300px;
+//   z-index: 3;
+// }
